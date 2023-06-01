@@ -2,6 +2,7 @@ version: 2
 updates:
   - package-ecosystem: "pip"
     directory: "/"
+    open-pull-requests-limit: 10
     schedule:
       interval: "daily"
     target-branch: "v2"
@@ -21,3 +22,4 @@ updates:
       - dependency-name: "python-dateutil"
       - dependency-name: "jmespath"
       - dependency-name: "urllib3"
+      - dependency-name: "wheel"
